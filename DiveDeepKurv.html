@@ -1,22 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kurv</title>
+
+    <link rel="stylesheet" href="Kurv.css">
+    <script src="Kurv.js" defer></script>
 </head>
+
 <body>
-    <div class="header">
-        <img src="DiveDeepKurv.jpg" alt="Logo til hjemmeside" style="width: 100px; height: 100px;">
+
+    <header class="header">
+
+        <!-- Logo -->
+        <img
+            src="DiveDeep.png"
+            id="logo"
+            alt="DiveDeep logo"
+        >
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="DiveDeepForside.html">Forside</a>
+            <a href="DiveDeepOmOs.html">Om os</a>
+            <a href="DiveDeepDykkerUdstyr.html">Dykkerudstyr</a>
+        </nav>
+
+        <!-- Sidens titel -->
         <h1>Kurv</h1>
-    </div>
-    
-    <div class="content">
-        <p>Oversigt:</p>
-        <ul>
-            <li>Produkt 1</li>
-            <li>Produkt 2</li>
-            <li>Produkt 3</li>
-        </ul>
+
+    </header>
+
+
+    <main class="main-content">
+
+        <!-- Indkøbskurv -->
+        <section class="content">
+
+            <h2>Indkøbskurv</h2>
+
+            <ul class="produktliste">
+
+                <li class="produkt">
+                    <span>Produkt 1</span>
+                    <span class="pris">100 kr</span>
+                </li>
+
+                <li class="produkt">
+                    <span>Produkt 2</span>
+                    <span class="pris">200 kr</span>
+                </li>
+
+                <li class="produkt">
+                    <span>Produkt 3</span>
+                    <span class="pris">400 kr</span>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Oversigt -->
+        <section class="oversigt">
+
+            <h2>Oversigt</h2>
+
+            <p>Pris for elementer:</p>
+
+            <p id="totalpris">700 kr</p>
+
+            <button id="Lej-udstyr">
+                Lej nu
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>2026 DiveDeep</p>
+    </footer>
+
 </body>
+
 </html>
