@@ -1,0 +1,78 @@
+.header {
+    height: 180px;
+    background-color: #4c9cf7;
+    background-image: url('vand.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    outline: black;
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #4a9bea;
+    text-align: center;
+    padding: 30px;
+}
+
+.baggrund {
+    background-image: url("baggrund.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #4a9bea;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 270px;
+}
+
+.baggrund {
+    background-image: url("baggrund.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.produkter {
+    display: flex;
+    gap: 10px;
+}
+
+.produkter img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#logo {
+    position: absolute;
+
+    left: 30px;
+    top: 15px;
+
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+}
