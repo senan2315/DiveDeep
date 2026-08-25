@@ -65,6 +65,7 @@ body {
 }
 
 #loginForm {
+    position: relative;
     width: 300px;
     margin: 120px auto 0;
     padding: 20px;
